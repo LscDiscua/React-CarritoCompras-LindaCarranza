@@ -1,0 +1,15 @@
+- Eliminar elementos del Carrito:
+	Se creo con un sweetalert la advertencia notificandole al usuario si desea elimniar
+	dicho articulo del carrito.
+- Styled Components:
+	Todos los componenentes del proyectos estan estilados con styled components.
+- Hook useEffect:
+	Se incorporo un useEffect para saber cuando el carrito esta vacio y asi poder
+	mostrarle una notificacion indicandole que agregue elementos en su carrito.
+	De igual manera se implemento junto al useRef para el cambio de la variable cantidad
+	que establece la cantidad de valores en el carrito.
+- Hook useRef
+	Se utilizo para inicializar la variable cantidad, la cual indica la cantidad de articulos
+	contenido por el carrito.
+- Hook useContext
+	Se utilizo para proveer un estilo o tema a los contenedores de donde se muestran los articulos.
